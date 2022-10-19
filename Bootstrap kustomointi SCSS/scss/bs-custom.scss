@@ -1,0 +1,16 @@
+// Your variable overrides
+$body-bg: rgb(64, 29, 217);
+$body-color: rgb(255, 255, 255);
+
+$display-font-weight: 600;
+$lead-font-weight: 600;
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+$font-family-base: "Rubik", sans-serif;
+
+// Bootstrap and its default variables
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500");
+@import "../node_modules/bootstrap/scss/bootstrap";

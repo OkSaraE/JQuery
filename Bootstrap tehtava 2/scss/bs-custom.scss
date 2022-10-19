@@ -1,0 +1,26 @@
+// Your variable overrides
+$body-bg: rgb(29, 26, 26);
+
+$body-color: rgb(0, 0, 0);
+
+$card-height: 100%;
+
+$input-group-addon-bg: white;
+
+.input-group{
+  padding-top: 50vh;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#result{
+  padding-left: 10%;
+  margin-right: 10%;
+}
+
+#bar{
+  background-color: white;
+}
+
+// Bootstrap and its default variables
+@import "../node_modules/bootstrap/scss/bootstrap";
